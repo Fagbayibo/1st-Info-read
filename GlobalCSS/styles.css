@@ -1,0 +1,452 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    margin: 10px 20px 0 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.book {
+    margin-top: 2px;
+    margin-right: 5px;
+}
+
+.nav-link {
+    font-size: medium;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+/* hero section */
+
+
+.hero {
+
+    height: 100vh;
+    background-color: gray;
+
+}
+
+.first-row {
+    padding-top: 4.5rem;
+}
+
+.copy h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding-top: 20px;
+}
+
+.hero-button {
+    padding-top: 10px;
+}
+
+.hero-button .Get-btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    background-color: #E4BB76;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+.Learn-Btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.2rem;
+    padding: 10px 30px 10px 30px;
+    color: black;
+    margin-left: 20px;
+    background: transparent;
+    border-radius: 10px;
+    border-color: #E4BB76;
+
+}
+
+.second-col-img {
+    padding-left: 100px;
+    padding-top: 10px;
+}
+
+.second-col-img img {
+    width: 350px;
+}
+
+/* feature section */
+.feature {
+    padding-top: 80px;
+    background-color: #fff;
+
+}
+
+.row {
+    padding-left: 50px;
+
+}
+
+.f-copy h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    width: 40%;
+}
+
+.f-copy p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    width: 40%;
+}
+
+.rectangle {
+    height: 363px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-sizing: content-box;
+    width: 300px;
+}
+
+.r-copy {
+    padding-top: 20px;
+}
+
+.icon {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.rectangle h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.rectangle p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 300px;
+}
+
+.rectangle a {
+    margin-top: 40%;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #E4BB76;
+
+}
+
+.second-rectangle {
+    height: 363px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-sizing: content-box;
+    width: 300px;
+}
+
+.second-rectangle h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.second-rectangle p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 300px;
+}
+
+.second-rectangle a {
+    margin-top: 40%;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #E4BB76;
+
+}
+
+.third-rectangle {
+    height: 363px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-sizing: content-box;
+    width: 300px;
+
+}
+
+.third-rectangle h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.third-rectangle p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28.8px;
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 300px;
+}
+
+.third-rectangle a {
+    margin-top: 40%;
+    margin-left: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #E4BB76;
+
+}
+
+/* List Section */
+
+.List {
+    margin-top: 50px;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.card-text {
+    padding-top: 50px;
+}
+
+.card-text h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-text h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    height: 240px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.card-copy {
+    padding-top: 10px;
+}
+
+.card-content-one {
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-content-heading {
+    padding-left: 10px;
+    font-size: 1.75rem;
+}
+
+.card-content-two {
+    padding-left: 10px;
+    font-size: 1rem;
+    text-align: left;
+    width: 100%;
+
+}
+
+/* Newsletter Section */
+
+.Newsletterss {
+    background-image: url(https://www.trafsys.com/wp-content/uploads/2020/02/library-people-counters.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.New-Con {
+    padding: 30px;
+}
+
+.News-Copy {
+    margin-top: 70px;
+    padding-left: 50px;
+    background-color: #E4BB76;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.News-Copy h2 {
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+
+.News-Copy h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+
+.News-Copy input {
+    width: 300px;
+    padding: 13px;
+    background-color: black;
+    border-radius: 20px;
+    font-size: 1rem;
+    color: #E4BB76;
+
+}
+
+.News-Copy button {
+    margin-left: 10px;
+    padding: 10px 20px 10px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.News-Copy p {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 700px) {
+    .copy h1 {
+        font-size: 1.8rem;
+        text-align: center;
+        padding-left: 0;
+        padding-right: 40px;
+    }
+
+    .first-column {
+        padding-left: 0;
+
+    }
+
+    .copy p {
+        font-size: 1.2rem;
+        text-align: center;
+        padding-right: 40px;
+        font-weight: 100;
+    }
+
+    .hero-button {
+        text-align: center;
+    }
+
+    .second-col-img img {
+        width: 300px;
+        padding-top: 30px;
+        align-items: center;
+    }
+
+
+    /* Feature section */
+
+
+    .f-copy h1 {
+        font-size: 1.9rem;
+        width: 100%;
+        text-align: center;
+        padding-top: 60px;
+
+    }
+
+    .f-copy p {
+        font-size: 1.1rem;
+        width: 100%;
+        text-align: center;
+        line-height: 2;
+        font-weight: 100;
+    }
+
+    .gather {
+        padding-left: 10px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+
+    /* Newsletters Section */
+
+    .News-Copy {
+        margin: 10px;
+        padding-left: 20px;
+    }
+
+    .News-Copy h2 {
+        font-size: 1rem;
+        line-height: 2;
+
+    }
+
+    .News-Copy h1 {
+        font-size: 1.4rem;
+    }
+
+    .News-Copy input {
+        width: 300px;
+        padding: 9px;
+    }
+    
+        .News-Copy button{
+            margin-top: 10px;
+            align-items: center;
+            padding: 5px 10px 5px 10px;
+            margin-left: 3px;
+        }
+
+                .News-Copy p{
+                    padding-top: 10px;
+                }
+
+}
